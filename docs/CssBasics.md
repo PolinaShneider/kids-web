@@ -17,3 +17,14 @@ CSS — каскадные таблицы стилей. Позволяют за�
 ---
 - [игра](https://flukeout.github.io/) по CSS-селекторам
 - классная [статья](https://cutt.ly/wRpYvN8) с Medium про CSS
+---
+- Полезные сервисы для подбора цветовой гаммы:
+    - [Теория по форматам цветов](http://proglang.su/css/colors)
+    - [Цветовое колесо Adobe](https://color.adobe.com/ru/create)
+    - [Цвета брендов](https://brandcolors.net/)
+    - [Расширение для хрома](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?utm_source=chrome-ntp-icon), чтобы взять цвет со страницы
+    - Градиенты: [сайт раз](https://mycolor.space/), [сайт два](https://cssgradient.io/)
+- Как отцентрировать элемент: width + margin 0 auto; text-align: center;
+    - [Ultimate centring guide](https://css-tricks.com/centering-css-complete-guide/)
+- Вес селекторов
+    - [Статья с хабра](https://habr.com/ru/post/137588/)
