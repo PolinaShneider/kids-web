@@ -1,0 +1,23 @@
+.container .red {
+    background: darkred;
+}
+
+.container #blue {
+    background: darkblue;
+}
+
+.red {
+    background: red;
+}
+
+#blue {
+    background: blue;
+}
+
+.container div {
+    background: pink;
+}
+
+// Задание 4.2
+// попробуй упорядочить селекторы от самого сильного — 5, до самого слабого — 1
+// https://habr.com/ru/post/137588/

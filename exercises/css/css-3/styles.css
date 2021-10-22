@@ -1,7 +1,3 @@
-.item {
-    background: darkred;
-}
-
-.item:hover {
-
+body {
+    background: orange;
 }
