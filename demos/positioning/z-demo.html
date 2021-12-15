@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Z-index</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.container {
+			width: 340px;
+			position: relative;
+		}
+
+		.block {
+			width: 160px;
+			height: 160px;
+			display: inline-block;
+		}
+
+		.red {
+			background: red;
+			position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		}
+
+		.gray {
+			background: gray;
+		}
+
+		.brown {
+			background: #5B2828;
+		}
+
+		.brown-2 {
+			position: relative;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="block gray"></div>
+		<div class="block brown"></div>
+		<div class="block red"></div>
+		<div class="block brown brown-2"></div>
+		<div class="block gray"></div>
+	</div>
+</body>
+</html>

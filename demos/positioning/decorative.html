@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Наложение декоративных элементов</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.bg {
+			height: 500px;
+			display: block;
+		}
+
+		.play {
+			height: 80px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.like {
+			height: 50px;
+		    position: absolute;
+		    bottom: 20px;
+		    right: 20px;
+		}
+
+		.container {
+			position: relative;
+		    width: 750px;
+		    margin: 0 auto;
+		}
+
+		.overlay {
+			position: absolute;
+			background: rgba(0,0,0,.5);
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<span class="overlay"></span>
+		<img class="bg" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/beautiful-tropical-sunset-scenery-two-sun-beds-royalty-free-image-1595368231.jpg">
+		<img class="play" src="https://avatanplus.com/files/resources/original/56be426a8454f152d733702e.png">
+		<img class="like" src="https://icons-for-free.com/iconfiles/png/512/heart-131965017458786724.png">
+	</div>
+</body>
+</html>

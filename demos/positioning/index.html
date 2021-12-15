@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Позиционирование</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.pink {
+			display: inline-block;
+			background: pink;
+			height: 100px;
+			width: 125px;
+			position: relative;
+		    top: 20px;
+		    left: 100px;
+		}
+
+		.blue {
+			display: inline-block;
+			background: blue;
+			height: 100px;
+			width: 125px;
+		}
+
+		.green {
+			display: inline-block;
+			background: green;
+			position: absolute;
+			height: 100px;
+			width: 125px;
+			
+			top: 20px;
+			left: 100px;
+		}
+
+		.parent {
+			width: 500px;
+			height: 500px;
+			position: relative;
+			border: 1px solid;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="green">Привет, я абсолютный div!</div>
+	</div>
+	<div class="pink">Привет, я div!</div>
+
+	
+	<div class="blue">Привет, я тоже div!</div>
+</body>
+</html>

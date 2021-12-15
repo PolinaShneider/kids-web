@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Декоративные элементы через абсолютное позиционирование</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.container {
+			position: relative;
+			width: 800px;
+			height: 450px;
+			margin: 30px auto;
+		}
+
+		.background {
+			height: 100%;
+			width: 100%;
+			object-fit: contain;
+		}
+
+		.overlay {
+			position: absolute;
+			background: rgba(0,0,0,0);
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+		}
+
+		.container:hover .overlay {
+			background: rgba(0,0,0,.5);
+		}
+
+		.play {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			height: 70px;
+			transform: translate(-50%, -50%);
+		}
+
+		.like {
+			width: 30px;
+			position: absolute;
+			bottom: 15px;
+    		right: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img class="background" src="https://store-images.s-microsoft.com/image/apps.17599.14222458110220046.63cf67f1-c306-44d3-8890-1cc6b204e75a.c80ed14f-26ee-41fa-bd94-fa317b47228c?mode=scale&q=90&h=1080&w=1920">
+		<span class="overlay"></span>
+		<img class="play" src="https://avatanplus.com/files/resources/original/56be426a8454f152d733702e.png">
+		<img class="like" src="https://image.flaticon.com/icons/png/512/2/2267.png">
+	</div>
+</body>
+</html>

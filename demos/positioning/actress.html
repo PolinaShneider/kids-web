@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Работа со слоями</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.holder {
+			width: 300px;
+			height: 500px;
+			margin: 0 auto;
+			border-radius: 8px;
+			background: #a84ed5c2;
+		}
+
+		img {
+		    height: 200px;
+		    width: 200px;
+		    border-radius: 50%;
+		    object-fit: cover;
+		    position: relative;
+		    top: 50px;
+		    left: 50%;
+		    transform: translateX(-50%);
+		}
+
+		.outer {
+			margin-top: -50px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div class="outer">
+		<img src="https://static.toiimg.com/thumb/msid-71581763,imgsize-259859,width-800,height-600,resizemode-75/71581763.jpg" alt="Актриса">
+		<div class="holder"></div>
+	</div>
+</body>
+</html>
