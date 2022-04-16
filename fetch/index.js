@@ -8,9 +8,9 @@ fetch(URL)
 
 const container = document.querySelector('.container');
 const cardTemplate = document.querySelector('#item-card');
-function makeCard({title, description, img, price}) {
-    console.log(cardTemplate)
+function makeCard({title, description, img, price, id}) {
     const card = cardTemplate.content.cloneNode(true);
+    card.querySelector('.item').setAttribute('data-id', id);
     card.querySelector('h1').textContent = title;
     card.querySelector('p').textContent = description;
     card.querySelector('img').src = `${URL}/${img}`;

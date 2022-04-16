@@ -1,35 +1,41 @@
 [
     {
+        "id": 1,
         "title": "Яблоки необыкновенные",
         "description": "Не ешь — козленочком станешь",
         "img": "../img/apple.jpeg",
         "price": 20
     },
     {
+        "id": 2,
         "title": "Айфон 14",
         "description": "Тот, которого у тебя нет",
         "img": "../img/iphone.jpeg",
         "price": 1000000
     },
     {
+        "id": 3,
         "title": "Рог единорога",
         "description": "Для кулинарных безумий",
         "img": "../img/unicorn.jpeg",
         "price": 500
     },
     {
+        "id": 4,
         "title": "Кока-кола",
         "description": "Со вкусом детства",
         "img": "../img/cola.jpeg",
         "price": 70
     },
     {
+        "id": 5,
         "title": "Нормальная погода в Питере",
         "description": "То, о чем тебе остается только мечтать",
         "img": "../img/weather.jpeg",
         "price": 200
     },
     {
+        "id": 6,
         "title": "Просто картошка",
         "description": "Удивительно...",
         "img": "../img/potato.jpeg",
