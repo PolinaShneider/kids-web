@@ -28,5 +28,11 @@
         "description": "То, о чем тебе остается только мечтать",
         "img": "../img/weather.jpeg",
         "price": 200
+    },
+    {
+        "title": "Просто картошка",
+        "description": "Удивительно...",
+        "img": "../img/potato.jpeg",
+        "price": 4
     }
 ]
